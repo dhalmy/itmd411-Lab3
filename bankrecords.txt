@@ -1,5 +1,5 @@
-Avg inc. for Females: $28646.318233333328
-Avg inc. for Males: $27225.827199999996
+Avg inc. for Females: $28646.32
+Avg inc. for Males: $27225.83
 
 Num of females with Mortgage & savings account:71
 
@@ -8,9 +8,9 @@ Rural region males with car and 1 child: 9
 Suburban city region males with car and 1 child: 3
 Town region males with car and 1 child: 7
 
-Avg inc. for married & childfree people with a car: 26800.622105263155
-Avg inc. for married & childfree people without a car: 32336.040222222222
+Avg inc. for married & childfree people with a car: 26800.62
+Avg inc. for married & childfree people without a car: 32336.04
 
-Avg age for people with kids: 42.82005899705015
-Avg age for people without kids: 41.842911877394634
+Avg age for people with kids: 42.8
+Avg age for people without kids: 41.8
 

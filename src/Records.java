@@ -67,8 +67,8 @@ public class Records extends BankRecords {
         System.out.println();
 
         try {
-            fw.write("Avg age for people with kids: " + (ageY/cntY) +"\n");
-            fw.write("Avg age for people without kids: " + (ageN/cntN) +"\n");
+            fw.write("Avg age for people with kids: " + String.format("%.1f",(ageY/cntY)) +"\n");
+            fw.write("Avg age for people without kids: " + String.format("%.1f",(ageN/cntN)) +"\n");
             fw.write("\n");
         } catch (IOException e) {
             e.printStackTrace();
@@ -106,8 +106,8 @@ public class Records extends BankRecords {
         System.out.println();
 
         try {
-            fw.write("Avg inc. for married & childfree people with a car: " + (carInc/carCnt) +"\n");
-            fw.write("Avg inc. for married & childfree people without a car: " + (nocarInc/nocarCnt) +"\n");
+            fw.write("Avg inc. for married & childfree people with a car: " + String.format("%.2f",carInc/carCnt) +"\n");
+            fw.write("Avg inc. for married & childfree people without a car: " + String.format("%.2f",(nocarInc/nocarCnt)) +"\n");
             fw.write("\n");
         } catch (IOException e) {
             e.printStackTrace();
@@ -211,8 +211,8 @@ public class Records extends BankRecords {
         System.out.println();
 
         try {
-            fw.write("Avg inc. for Females: $" + (femInc/femCt) +"\n");
-            fw.write("Avg inc. for Males: $" + (maleInc/maleCt) +"\n");
+            fw.write("Avg inc. for Females: $" + String.format("%.2f",femInc/femCt) +"\n");
+            fw.write("Avg inc. for Males: $" + String.format("%.2f",maleInc/maleCt) +"\n");
             fw.write("\n");
         } catch (IOException e) {
             e.printStackTrace();
